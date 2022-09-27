@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <header>
+            <h1>Navigational Links</h1>
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="aboutme">
+                <h1>About Me Page</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur hendrerit, libero eu cursus facilisis, lacus leo
+                    consequat risus, vel pulvinar enim sapien id sem. Morbi
+                    faucibus ante eget bibendum iaculis. Sed sodales ligula et
+                    dapibus pretium. Vestibulum condimentum quam elit, quis
+                    accumsan turpis ultricies id. Sed vel massa sit amet nunc
+                    vestibulum fermentum. Sed ac nisl et nisl mollis blandit non
+                    in mi. Proin sodales blandit nisl vel tristique. Ut in
+                    efficitur erat. Etiam bibendum placerat ornare. Morbi nibh
+                    arcu, interdum sed ornare vel, efficitur id lectus. Nunc et
+                    felis massa. In sagittis eros posuere elit euismod, sit amet
+                    gravida eros tincidunt. Praesent venenatis felis sit amet
+                    urna ullamcorper venenatis. Suspendisse condimentum placerat
+                    convallis. In efficitur mattis augue, et rhoncus metus
+                    congue at. Fusce et lacinia erat. Proin vehicula ante ipsum.
+                    Maecenas id sapien ut sem aliquet fringilla eget eu ligula.
+                    Nulla porttitor mi sit amet ullamcorper sagittis. Aenean at
+                    commodo augue. Quisque malesuada magna scelerisque ipsum
+                    gravida sodales. Maecenas ligula diam, feugiat in suscipit
+                    in, ornare ut diam. Cras tempus arcu ac turpis sagittis
+                    venenatis. Sed nec urna a magna scelerisque porttitor eu ut
+                    nulla. Mauris vulputate ante tincidunt consequat pulvinar.
+                    In hac habitasse platea dictumst. Maecenas libero dolor,
+                    vehicula eu tristique non, pulvinar quis dui. Suspendisse
+                    ullamcorper sem sed nunc aliquam varius. Vestibulum pulvinar
+                    consectetur ex, id ultricies nisi tempus ac. Ut vestibulum
+                    aliquam tellus, ac viverra dui luctus sit amet. Curabitur
+                    gravida maximus risus volutpat mollis. Suspendisse et
+                    blandit ligula. Sed in eleifend felis. Nunc cursus lacus
+                    massa, et placerat diam elementum et. Vestibulum mattis,
+                    mauris ac mattis interdum, odio magna pretium nisi, nec
+                    vehicula libero augue eget leo. Quisque massa ex, finibus in
+                    ultricies egestas, rutrum ut massa. Morbi vitae justo
+                    lobortis, tincidunt felis non, hendrerit purus. Morbi
+                    volutpat commodo mauris, ac viverra tellus accumsan eget.
+                    Quisque facilisis, ipsum in laoreet condimentum, urna metus
+                    commodo orci, a eleifend turpis erat non ipsum. Aliquam
+                    condimentum tellus vel dolor mattis dictum. Ut sapien odio,
+                    tempor sit amet odio non, tincidunt lobortis sem. Nunc eu
+                    elit interdum, sollicitudin felis quis, interdum libero.
+                    Curabitur sed tempus ligula. Sed non eros consectetur augue
+                    aliquam cursus. Nullam quis turpis quis velit pulvinar
+                    cursus. Donec auctor ullamcorper nisi quis pulvinar. Nunc
+                    purus lorem, scelerisque sed magna ac, efficitur condimentum
+                    quam.
+                </p>
+            </section>
+            <section id="list">
+                <ul>
+                    <!-- without numbering list -->
+                    <li>Malaysia</li>
+                    <li>Singapore</li>
+                    <li>Indonesia</li>
+                </ul>
+                <ol>
+                    <!-- numbering list -->
+                    <li>Nasi Lemak</li>
+                    <li>Bihun Singapore</li>
+                    <li>Onde-onde</li>
+                </ol>
+            </section>
+            <section id="table">
+                <style>
+                    th,
+                    td {
+                        border: 1px solid black;
+                    }
+                </style>
+                <table style="border: 1px solid black">
+                    <caption>
+                        <h2>Grocery Shopping list</h2>
+                    </caption>
+                    <!-- <colgroup>
+                <col span="1" style="visibility: collapse">
+                lgroup> -->
+                    <tr style="height: 45px">
+                        <th style="width: 25%">Item Number</th>
+                        <th style="width: 50%">Item Name</th>
+                        <th style="width: 50%">Quantity</th>
+                    </tr>
+                    <tr>
+                        <!--  table row 1-->
+                        <td>1</td>
+                        <!--  table data -->
+                        <td>Milk</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Banana</td>
+                        <td>1</td>
+                    </tr>
+                    <!--  table row 2-->
+                    <tr>
+                        <td>3</td>
+                        <td>Chicken wings</td>
+                        <td rowspan="2">5</td>
+                    </tr>
+                    <!--  table row 3-->
+                    <tr>
+                        <td>4</td>
+                        <td>Potato Chips</td>
+                    </tr>
+                    <!--  table row 4-->
+                </table>
+            </section>
+            <br />
+            <form action="receive.html" method="get">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="name" id="name" required />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        placeholder="email"
+                        id="email"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        placeholder="enter password"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input
+                        type="number"
+                        placeholder="enter current age"
+                        id="age"
+                        min="5"
+                        max="100"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="date">Date of Birth</label>
+                    <input
+                        type="date"
+                        placeholder="Enter birth date"
+                        min="1950-01-01"
+                        id="datePickerId"
+                        required
+                    />
+                </div>
+                <div>
+                    Favourite Food
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="chicken_wings"
+                            id="chicken_wings"
+                        />
+                        <label for="chicken_wings">Grilled Chicken Wings</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="fish_chips"
+                            id="fish_chips"
+                        />
+                        <label for="fish_chips">Fish & Chips</label>
+                    </div>
+                </div>
+                <div>
+                    Gender
+                    <div>
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="male"
+                            value="male"
+                        />
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="female"
+                            value="female"
+                        />
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <br />
+                <div>
+                    <label for="hobbies">Hobbies</label>
+                    <br />
+                    <select name="hobbies" id="hobbies" multiple>
+                        <option value="read">Read</option>
+                        <option value="code">Code</option>
+                        <option value="swim">Swim</option>
+                    </select>
+                </div>
+                <br />
+                <div>
+                    <label for="bio">Bio</label>
+                    <textarea
+                        name="bio"
+                        id="bio"
+                        cols="30"
+                        rows="10"
+                        placeholder="Enter your bio here!"
+                    ></textarea>
+                </div>
+                <div>
+                    <label for="file">File Upload</label>
+                    <input type="file" name="file" id="file" />
+                </div>
+                <br />
+                <div>
+                    <label for="color">Color</label>
+                    <input type="color" name="color" id="color" />
+                </div>
+                <br />
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+            <script>
+                datePickerId.max = new Date().toISOString().slice(0, -14);
+            </script>
+            <footer id="footer">
+                <h2>Aidid Azahar</h2>
+                <p class="title">Web Developer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p><a href="mailto:john@example.com">john@example.com</a></p>
+                <p>Contact me at +1 234 567 8910</p>
+                <p>Copyright &#169;</p>
+            </footer>
+        </main>
+    </body>
+</html>
